@@ -1,0 +1,8 @@
+Estimado profesor:
+
+En la pagina web que realizamos, no pudimos realizar las integraciones debido a que no pudimos saber con exactitud con que grupo de backend debiamos coordinarnos para realizar las integraciones, por lo que no pudimos quedar con algun grupo de backend y asi poder realizar las integraciones.Por lo que fue imposible contactar con algun grupo por ello intentamos dejar todo lo mejor posible pero no pudimos hacer pruebas con los demas compañeros.
+
+
+Tampoco pudimos desarrollar la pagina como lo pensabamos ya que no nos dio el tiempo por estar con demasiados trabajos esta semana, tratamos de hacer funcionar el carrito de compras de los productos, sin embargo tampoco pudimos hacerlo por falta de tiempo, tratamos de ver varias formas pero ninguna nos tomo, intentamos hacer nuestra parte de la mejor forma posible.
+
+como dato curioso, en el inicio de sesion en la contraseña deben ponerse mas de 8 caracteres para que se puedan acceder a las vistas.
