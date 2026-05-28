@@ -20,13 +20,13 @@ form.addEventListener("submit", (e) => {
   }
 
   if (emailIn === "juan.perez@gmail.com") { //para iniciar sesion en cliente
-    redirectTo("sesion_iniciada_exito_cliente"); 
+    redirectTo("/tienda/vista_cliente_2"); 
   } else if (emailIn === "seba.g@gmail.com") {  //para iniciar sesion en cliente
-    redirectTo("sesion_iniciada_exito_cliente");
+    redirectTo("/tienda/sesion_iniciada_exito_cliente");
   } else if (emailIn === "asdf123@gmail.com") {  //para iniciar sesion en cliente
-    redirectTo("sesion_iniciada_exito_cliente");
+    redirectTo("/tienda/sesion_iniciada_exito_cliente");
   } else {
-    redirectTo("IniciarSesion");
+    redirectTo("/tienda/IniciarSesion");
     showSuccessMessage("Enviado");
   }
 });

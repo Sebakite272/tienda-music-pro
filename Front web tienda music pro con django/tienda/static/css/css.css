@@ -224,7 +224,12 @@ a{
 
 }
 
-
+form{
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
 
 
 .boton{
@@ -232,6 +237,22 @@ a{
     width: 10px;
 
 
+}
+
+.btn-ingresar{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s;
+
+}
+
+.btn-ingresar:hover{
+    background-color:#0056b3;
+    transform: scale(1.05);
 }
 
 .bow{

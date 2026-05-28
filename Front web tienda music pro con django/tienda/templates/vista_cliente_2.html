@@ -46,6 +46,11 @@
                                 </div>
                             </li>
                         </ul>
+                        <div class="mi-auto">
+                            <a href="{% url 'tienda:index' %}" class="btn btn-outline-light">
+                                Cerrar sesion
+                            </a>
+                        </div>
                     </div>
                 </nav>
             </div>
@@ -58,7 +63,11 @@
         </nav>
       </div>
 
+     
+
       <center><h4 class="titulo">PRODUCTOS DISPONIBLES</h4></center>
+
+      
 
       
       <div class="container" id="lista-productos">
@@ -173,11 +182,7 @@
 
         </div>
 
-         <div class="container">
-             <a href="{% url 'index' %}" type="button" class="login-button btn btn-xs btn-default" title="Log in">
-                Cerrar sesion </a>
-          <!--<span class="glyphicon glyphicon-log-in"></span>--> 
-            </div>
+         
     
 
     <script src="{% static 'js/carrito_nuevo.js' %}"></script>

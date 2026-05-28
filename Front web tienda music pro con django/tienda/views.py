@@ -11,6 +11,10 @@ def IniciarSesion(request):
     context={}
     return render(request, 'IniciarSesion.html', context)
 
+def registrar(request):
+    context={}
+    return render(request, 'registrar.html', context)
+
 def InicioSesion_vendedor(request):
     context={}
     return render(request, 'InicioSesion_vendedor.html', context)

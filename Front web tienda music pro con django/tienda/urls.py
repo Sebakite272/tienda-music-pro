@@ -9,6 +9,7 @@ app_name = 'tienda'
 urlpatterns = [
        path('index/', views.index, name='index'),
        path('IniciarSesion/', views.IniciarSesion, name='IniciarSesion'),
+       path('registrar', views.registrar, name='registrar'),
        path('vista_cliente_2', views.vista_cliente_2, name='vista_cliente_2'),
        path('InicioSesion_vendedor', views.InicioSesion_vendedor, name='InicioSesion_vendedor'),
        path('pedidos_vendedor', views.pedidos_vendedor, name='pedidos_vendedor'),
