@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django.urls import path
 from . import views
-#from tienda.admin_views import index as tienda_admin_index
 #from django.contrib.auth.decorators import login_required
 
 app_name = 'tienda'
